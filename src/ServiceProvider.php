@@ -28,7 +28,7 @@ class ServiceProvider extends BaseServiceProvider
 
     public function boot()
     {
-        $configPath = __DIR__ . '/../../config/amazon-mws.php';
+        $configPath = __DIR__ . '/config/amazon-mws.php';
         $this->publishes([$configPath => config_path('amazon-mws.php')], 'config');
     }
 
