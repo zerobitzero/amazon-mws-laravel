@@ -18,7 +18,8 @@ Sonnenglas\AmazonMws\ServiceProvider::class,
 
 There's no facades to add in config/app.php
 
-3. Copy amazon-mws.php configuration file from src/config/amazon-mws.php to Laravel's config directory.
+3. php artisan vendor:publish --provider="Sonnenglas\AmazonMws\ServiceProvider"
+Copy amazon-mws.php configuration file from src/config/amazon-mws.php to Laravel's config directory.
 
 ## Usage
 All of the technical details required by the API are handled behind the scenes,
